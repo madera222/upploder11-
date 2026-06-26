@@ -13,8 +13,8 @@ DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://itsgoluAPI:jrMHSipT
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "6220046859"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "6220046859").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "5575032909"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "5575032909").split()]  # Default to owner ID
 
 # Channel Configuration
 PREMIUM_CHANNEL = ""
